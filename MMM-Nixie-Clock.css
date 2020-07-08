@@ -1,0 +1,48 @@
+/*
+ *
+ * MMM-Nixie-Clock
+ *
+ * upgrade_script
+ * MIT Licensed.
+ *
+ * Custom here your css module
+ *
+ */
+ 
+ 
+ /* grid of six coloums */
+ 
+#Nixie_Clock {
+  display: grid;
+  grid-template-columns: 80px 80px 10px 80px 80px 10px 80px 80px;
+  grid-gap: 10px;
+}
+
+a {
+position: absolute;
+}
+
+#HourT a{
+position: absolute;
+}
+
+#HourU a{
+position: absolute;
+}  
+#MinT a{
+position: absolute;
+}
+
+#MinU a{
+position: absolute;
+}  
+
+#SecT a{
+position: absolute;
+}
+
+#SecU a{
+position: absolute;
+}  
+
+
