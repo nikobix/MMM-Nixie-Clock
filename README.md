@@ -6,6 +6,8 @@ Todo: Create a simple virtual Nixie clock
 
 ![alt text](/img/MMM-Nixie-Clock.jpg)
 
+This module will float over other moudules, so you may need to adjust the position in the congif file.
+
 ## Using the module - moment.js
 
 To use this module, add the following configuration block to the modules array in the `config/config.js` file:
