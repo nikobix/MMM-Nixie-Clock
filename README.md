@@ -9,7 +9,11 @@ Todo: Create a simple virtual Nixie clock
 This module will float over other moudules, so you may need to adjust the position in the config file.
 
 ## Using the module - moment.js
-Images from http://cestmir.freeside.sk/projects/dhtml-nixie-display/
+Images found at:
+(c) 2007-08 Cestmir Hybl, cestmir.hybl@nustep.net
+http://cestmir.freeside.sk/projects/dhtml-nixie-display
+and 
+https://github.com/McOrts/M5StickC_Nixie_tube_Clock
 
 To use this module, add the following configuration block to the modules array in the `config/config.js` file:
 ```js
