@@ -2,7 +2,7 @@
 
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
-Todo: Create a simple virtual Nixie clock
+Todo: Add variety of Nixie images
 
 ![alt text](/img/MMM-Nixie-Clock.jpg)
 
