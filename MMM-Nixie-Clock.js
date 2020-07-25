@@ -65,6 +65,8 @@ Module.register("MMM-Nixie-Clock", {
 			var wrapper = document.createElement("div");
 			wrapper.id = "Nixie_Clock";
 			var s= this.config.size - this.config.size/10;
+			wrapper.style.height = (s*2)+"px";
+			wrapper.style.width = (s*9)+"px";
 			wrapper.style.gridTemplateColumns = `${s}px ${s}px ${s/5}px ${s}px ${s}px ${s/5}px ${s}px ${s}px`;
 			for(x=0;x<6;x++){
 			var div = document.createElement("div");
@@ -109,4 +111,5 @@ Module.register("MMM-Nixie-Clock", {
 			this.OldSt[j] = this.St[j];
 		}
 	},
+
 });
