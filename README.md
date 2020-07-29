@@ -6,7 +6,7 @@ Todo: Add variety of Nixie images
 
 ![alt text](/img/MMM-Nixie-Clock.jpg)
 
-This module will float over other moudules, so you may need to adjust the position in the config file.
+This module will float over other moudules, so you may need to adjust the position in the config file. (Fixed this now)
 
 ## Using the module - moment.js
 Images found at:
